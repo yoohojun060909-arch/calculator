@@ -31,7 +31,7 @@ class CalculatorApp(QWidget):
         self.edit2.setPlaceholderText("두 번째 숫자")
         self.edit2.setAlignment(Qt.AlignRight)
 
-        self.add_button = QPushButton("add")
+        self.add_button = QPushButton("더하기")
         self.result_label = QLabel("result ")
         self.result_label.setStyleSheet("font-size: 14px; font-weight: bold;")
 
