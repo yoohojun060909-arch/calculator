@@ -32,7 +32,7 @@ class CalculatorApp(QWidget):
         self.edit2.setAlignment(Qt.AlignRight)
 
         self.add_button = QPushButton("더하기")
-        self.result_label = QLabel("result ")
+        self.result_label = QLabel("결과 ")
         self.result_label.setStyleSheet("font-size: 14px; font-weight: bold;")
 
         # 레이아웃 설정
